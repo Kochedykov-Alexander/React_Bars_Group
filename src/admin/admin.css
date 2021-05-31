@@ -1,0 +1,117 @@
+.content {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .container {
+	max-width: 1180px;
+	margin: 0 auto;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .admin {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+			flex-direction: column;
+  }
+  
+  .admin__title {
+	font-size: 36px;
+	font-weight: 700;
+	margin-top: 75px;
+	text-align: center;
+  }
+  
+  .admin__description {
+	margin-top: 11px;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 25px;
+	text-align: center;
+  }
+  
+  .admin__description_href {
+	color: #45A29E;
+  }
+  
+  .admin__items {
+	margin-top: 87px;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: (150px)[auto-fit];
+		grid-template-columns: repeat(auto-fit, 150px);
+	row-gap: 20px;
+	-webkit-column-gap: 26px;
+			column-gap: 26px;
+	padding: 60px;
+  }
+  
+  .admin__item {
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-rows: 50px 160px;
+		grid-template-rows: 50px 160px;
+  }
+  
+  .admin__item_title {
+	background: rgba(0, 0, 0, 0.3);
+	background-color: #55B3AE;
+	font-weight: bold;
+	font-size: 18px;
+	color: #2F3043;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+  }
+  
+  .admin__item_photo {
+	width: 150px;
+	height: 160px;
+  }
+  
+  .admin__item_photo_img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+  }
+  
+  .admin__item_photo_img img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 0 90% 0;
+	-o-object-fit: cover;
+	   object-fit: cover;
+  }
+  
+  .text {
+	color: #1F2833 !important;
+	text-decoration: none;
+  }
+  
+  .horizontal_line {
+	-ms-flex-item-align: center;
+		-ms-grid-row-align: center;
+		align-self: center;
+	margin-top: 14px;
+	border: 0;
+	clear: both;
+	width: 830px;
+	background-color: #464866;
+	height: 1px;
+  }

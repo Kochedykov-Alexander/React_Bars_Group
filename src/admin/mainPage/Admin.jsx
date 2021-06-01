@@ -12,7 +12,7 @@ export default function Admin() {
 				<div className="admin__items">
 					<div className="admin__item">
 						<div className="admin__item_title"><a href="" className="text">Мероприятия</a></div>
-						<a href=""><div className="admin__item_photo"><img src="/admin/img/Мероприятие.jpg" className="admin__item_photo_img" alt=""/></div></a>
+						<a href=""><div className="admin__item_photo"><img src="../admin/img/Мероприятие.jpg" className="admin__item_photo_img" alt=""/></div></a>
 					</div>
 					<div className="admin__item">
 						<div className="admin__item_title"><a href="" className="text">Зрители</a></div>

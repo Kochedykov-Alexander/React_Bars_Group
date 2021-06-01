@@ -79,10 +79,95 @@ img {
 	display: -ms-grid;
 	display: grid;
 	min-height: 100vh;
-	
 }
 .header{
   background-color: black;
-    height: 70px;
-    display: flex;
+  height: 70px;
+  display: flex;
 }
+
+.btn-buttonRegistration{
+  display: inline-block;
+  padding: 10px;
+  background: #66FCF1;
+  position: absolute;
+  width: 216px;
+  height: 45px;
+  left: 1150px;
+  top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+} 
+.btn-buttonRegistration:hover{
+  background-color: black;
+  color: #66FCF1;
+  border: 1px;
+  border-style: solid;
+  border-color: #66FCF1;
+}
+
+.btn-buttonLogin{
+  display: inline-block;
+  padding: 10px;
+  background: #66FCF1;
+  position: absolute;
+  width: 130px;
+  height: 45px;
+  left: 1370px;
+  top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+  
+}
+.btn-buttonLogin:hover{
+  background-color: black;
+  color: #66FCF1;
+  border: 1px;
+  border-style: solid;
+  border-color: #66FCF1;
+}
+
+.header{
+  background-color: black;
+  height: 70px;
+  display: flex;
+}
+
+.logo{
+  color: white;
+  text-align:right;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.logo__text{
+  color: white;
+  text-align:center;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.menu{
+  padding-left: 100px;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.menu__item{
+  display: inline-block;
+  padding-top: 20px;
+  height: 70px;
+}
+.menu__item:hover{
+  background-color: #66FCF1;
+  color: black;
+}
+.menu a{
+  font-size: 18px;
+  margin-left: 20px;
+  color: white;
+  font-weight: 400;
+}  

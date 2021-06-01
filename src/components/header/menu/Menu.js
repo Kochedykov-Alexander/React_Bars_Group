@@ -1,17 +1,17 @@
 import React from 'react'
 
 const menuButtons = [
-    "купить билет",
-    "спортсмены",
-    "команды",
-    "виды спорта",
-    "events"
+    ["купить билет","tickets"],
+    ["спортсмены","listOfPlayers"],
+    ["команды","listOfTeams"],
+    ["виды спорта","sportTypes"],
+    ["мероприятия","listOfEvents"]
 ]
 
 function Menu(){
     return(
         <div className="menu">
-            {menuButtons.map(button =>(<a href={button}>{button}</a>))}
+            {menuButtons.map(button =>(<div><a className="menu__item" href={button[1]}>{button[0]}</a></div>))}
         </div>
     );
 }

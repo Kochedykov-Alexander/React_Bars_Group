@@ -4,7 +4,7 @@ import logo from '../../../src/img/LOGO.png'
 function Logo(){
     return(
         <div className="logo">
-            <a  href="#"><img src={logo} alt="logo"/></a>
+            <a  href="mainPage"><img src={logo} alt="logo"/></a>
         </div>
     );
 }

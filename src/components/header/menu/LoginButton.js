@@ -3,9 +3,9 @@ import React from 'react'
 function LoginButton(){
     return(
         <div class="login">
-            <button class="btn-buttonLogin" type="button">Войти</button>
+            <a href="login" className="btn-buttonLogin">Войти</a>
         </div>
     );
 }
 
-export default LoginButton
+export default LoginButton;

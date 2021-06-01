@@ -3,7 +3,7 @@ import React from 'react'
 function RegistrationButton(){
     return(
         <div class="registration">
-            <button class="btn-buttonRegistration" type="button">Зарегистрироваться</button>
+            <a href="registration" class="btn-buttonRegistration" >Зарегистрироваться</a>
         </div>
     );
 }

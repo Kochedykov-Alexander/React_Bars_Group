@@ -81,3 +81,8 @@ img {
 	min-height: 100vh;
 	
 }
+.header{
+  background-color: black;
+    height: 70px;
+    display: flex;
+}

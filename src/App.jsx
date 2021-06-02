@@ -15,6 +15,7 @@ import ListOfPlayers from './player/listOfPlayers'
 import AdminListOfPlayers from './admin/player/adminListOfPlayers';
 import ListOfTeams from './teams/ListOfTeams';
 import Team from './teams/Team';
+import Ticket from './ticket/Ticket';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/listOfTeams" component={ListOfTeams}></Route>
         <Route path="/team" component={Team}></Route>
         <Route path="/admin/listOfPlayers" component={AdminListOfPlayers}></Route>
+        <Route path="/tickets" component={Ticket}></Route>
       </Switch>
       </BrowserRouter>
       </div>

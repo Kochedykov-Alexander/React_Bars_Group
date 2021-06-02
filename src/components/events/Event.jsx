@@ -3,6 +3,7 @@ import React from 'react'
 export default function Event() {
 	return (
 		<div className="content">
+			<div className="container">
 				<div className="event">
 					<div className="event__left">
 						<div className="event__photo">
@@ -36,16 +37,17 @@ export default function Event() {
 					</div>
 				</div>
 				<div className="table">
-					<div className="table_result" onclick={changeBg()} >
+					<div className="table_result">
 					<a href="#">
 						Результаты
 					</a>
 					</div>
-					<div className="table__stats" onclick={changeSt()}>
+					<div className="table__stats">
 						<a href="#">Статистика</a>
 					</div>
-					<div className="table__empty" onclick={changeEm()}>
+					<div className="table__empty">
 						
+					</div>
 					</div>
 					</div>
 					</div>

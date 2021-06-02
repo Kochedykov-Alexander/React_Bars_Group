@@ -9,6 +9,8 @@ import Player from './player/Player';
 import Viewer from './viewers/Viewer';
 import MainPage from './mainPage/MainPage';
 import ListOfViewers from './viewers/ListOfViewers'; 
+import Registration from './registration/Registration';
+import Login from './login/Login';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Route path="/listOfJudges" component={Judges}></Route>
         <Route path="/player" component={Player}></Route>
         <Route path="/viewer" component={Viewer}></Route>
+        <Route path="/registration" component={Registration}></Route>
+        <Route path="/login" component={Login}></Route>
       </Switch>
       </BrowserRouter>
       </div>

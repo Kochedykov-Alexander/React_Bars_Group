@@ -1,0 +1,97 @@
+.content {
+	-ms-grid-row: 2;
+	-ms-grid-column: 1;
+	grid-area: content;
+	height: 100%;
+	width: 100%;
+	
+	
+  }
+
+  .container {
+	min-width: 971px;
+	height: 100%;
+  }
+
+  
+  
+  
+  
+  .table__header {
+	margin-top: 73px;
+	width: 1030px;
+	height: 80px;
+	background: #464866;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 0px 36px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+  }
+
+  .table_rows {
+	display: grid;
+	align-items: center;
+  }
+  
+  .table__row{
+	height: 64px;
+	font-weight: 500;
+	font-size: 18px;
+	padding: 0px 37px 0px 29px;
+	display: grid;
+	grid-auto-columns: 171px 193px 130px 130px;
+	grid-template-areas: "event teams date time";
+	align-content: center;
+	border-left: 1px solid #000000;
+	border-right:  1px solid #000000;
+	border-bottom: 1px solid #000000;
+	justify-content: space-around;
+  }
+
+  .table__row_event {
+	grid-area: event;
+  }
+
+  .table__row_teams {
+	grid-area: teams;
+  }
+
+  .table__row_date {
+	grid-area: date;
+  }
+
+  .table__row_time {
+	grid-area: time;
+  }
+  
+
+
+  .button__create {
+	
+	width: 140px;
+	height: 50px;
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 66px;
+	background: #66FCF1;
+	border-radius: 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);			
+  }
+
+  .button__create_block {
+	  width: 100%;
+		margin-top: 42%;
+	  display: grid;
+	  justify-content: center;
+	  align-content: center;
+  }
+  
+  
+ 

@@ -73,7 +73,7 @@ img {
 /*--------------------*/
 
 .wrapper {
-	/*-ms-grid-rows: 90px 1fr;*/
+	-ms-grid-rows: 90px 1fr;
 		grid-template-rows: 90px 1fr;
 		grid-template-areas: "header" "content";
 	display: -ms-grid;

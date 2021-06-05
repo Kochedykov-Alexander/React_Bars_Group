@@ -17,6 +17,7 @@ import ListOfTeams from './teams/ListOfTeams';
 import Team from './teams/Team';
 import Ticket from './ticket/Ticket';
 import Event from './events/Event';
+import TypesOfSports from './typesOfSports/typesOfSports';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path="/team" component={Team}></Route>
         <Route path="/admin/listOfPlayers" component={AdminListOfPlayers}></Route>
         <Route path="/tickets" component={Ticket}></Route>
+        <Route path="/typesOfSports" component={TypesOfSports}></Route>
       </Switch>
       </BrowserRouter>
       </div>

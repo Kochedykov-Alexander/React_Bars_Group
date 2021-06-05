@@ -1,11 +1,12 @@
 import React from 'react'
-import './admin.css'
+import './admin.css';
 import imgEvent from "../img/Мероприятие.png";
 import imgViewer from "../img/Зритель.png";
 import imgJudge from "../img/Судья.png";
 import imgPlayer from "../img/Спортсмены.png";
 import imgTeams from "../img/Команды.png";
 import imgTickets from "../img/Билеты.png";
+import './admin.css';
 
 export default function Admin() {
 	return (

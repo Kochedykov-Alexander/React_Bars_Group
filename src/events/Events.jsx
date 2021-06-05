@@ -3,9 +3,11 @@ import './events.css'
 import './events1.css'
 
 export default function Events() {
+	const getEvent = () => {
+		document.location = 'http://localhost:3000/event/1';
+	} 
 	return (
-	
-		<div className="content">
+			<div className="content">
 			<div className="container">
 				
 					<div className="table__header">
@@ -25,15 +27,18 @@ export default function Events() {
 							<div className="table__row_time">
 								Время
 							</div>
+							<div className="table__row_ticket">
+								билет
+							</div>
 						</div>
-						<a href="">
+						
 						<div className="table__row">
-							
+					
 							<div className="table__row_event">
 								Футбольный матч
 							</div>
 							<div className="table__row_teams">
-								Рубин-Спартак
+								<a href="events/1">Рубин-Спартак</a>
 							</div>
 							<div className="table__row_date">
 								18.06.2021
@@ -41,10 +46,11 @@ export default function Events() {
 							<div className="table__row_time">
 								18:00
 							</div>
-							
-						</div>
-						</a>
 						
+							<div className="table__row_ticket">
+								<a href="#">Купить билет</a>
+							</div>
+						</div>	
 					</div>
 					<div className="button__create_block">
 						<button className="button__create">
@@ -52,8 +58,6 @@ export default function Events() {
 						</button>
 					</div>
 				</div>
-			</div>
-			
-		
+			</div>	
 	)
 }

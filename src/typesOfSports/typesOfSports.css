@@ -1,0 +1,23 @@
+body{
+    background: url('../img/background.png');
+    width: 100%;
+}
+.content{
+    margin-top: 100px;
+}
+.typesOfSports h2{
+ color: black;
+ text-align: center;
+}
+.sport__carts{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.sport__carts__item{
+    width: 150px;
+    height: 200px;
+}

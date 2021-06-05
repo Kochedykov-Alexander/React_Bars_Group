@@ -4,7 +4,7 @@ const menuButtons = [
     ["купить билет","tickets"],
     ["спортсмены","listOfPlayers"],
     ["команды","listOfTeams"],
-    ["виды спорта","sportTypes"],
+    ["виды спорта","typesOfSports"],
     ["мероприятия","listOfEvents"]
 ]
 

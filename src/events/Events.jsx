@@ -1,5 +1,6 @@
 import React from 'react'
 import './events.css'
+import './events1.css'
 
 export default function Events() {
 	return (

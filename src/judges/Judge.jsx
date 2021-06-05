@@ -32,8 +32,6 @@ export default function Judge() {
 				</div>
 				</div>
 			</div>
-			
-			
-			
+
 	)
 }

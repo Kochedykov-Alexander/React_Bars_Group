@@ -16,6 +16,7 @@ import AdminListOfPlayers from './admin/player/adminListOfPlayers';
 import ListOfTeams from './teams/ListOfTeams';
 import Team from './teams/Team';
 import Ticket from './ticket/Ticket';
+import Event from './events/Event';
 
 function App() {
   return (

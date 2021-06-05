@@ -1,7 +1,0 @@
-.header {
-	height: 90px;
-	-ms-grid-row: 1;
-	-ms-grid-column: 1;
-	grid-area: header;
-	background-color: salmon;
-  }

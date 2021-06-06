@@ -1,7 +1,7 @@
 import React from 'react'
 
 const menuButtons = [
-    ["купить билет","tickets"],
+    ["купить билет","listOfEvents"],
     ["спортсмены","listOfPlayers"],
     ["команды","listOfTeams"],
     ["виды спорта","typesOfSports"],

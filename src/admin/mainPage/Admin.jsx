@@ -11,7 +11,7 @@ import './admin.css';
 export default function Admin() {
 	return (
 		<div className="content">
-				<div className="container">
+			<div className="admin__container">
 				<div className="admin">
 				<div className="admin__title">Администраторская панель</div>
 				<hr className="horizontal_line"/>

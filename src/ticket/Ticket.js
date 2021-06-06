@@ -5,7 +5,7 @@ export default function Team() {
 
 	return (
 		<div className="content">
-            <div className="container">
+            <div className="ticket__container">
                 <div className="ticket">
                     <div className="tickets__title"><h3>Список билетов</h3></div>
 					<hr className="horizontal_line"/>

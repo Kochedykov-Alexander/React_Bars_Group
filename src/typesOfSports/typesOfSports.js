@@ -10,7 +10,7 @@ export default function TypesOfSports() {
 
 	return (
 		<div className="typesOfSports">
-            <div className="content">
+            <div className="typesOfSports__content">
                 <h2>Виды спорта</h2>
                 <div className="sport__carts">
                     <div className="sport__carts__item">

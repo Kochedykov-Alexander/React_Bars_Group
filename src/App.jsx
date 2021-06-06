@@ -1,5 +1,6 @@
 import './App.css';
 import { Route, Switch, Redirect, BrowserRouter} from "react-router-dom"
+import TypesOfSports from './typesOfSports/typesOfSports';
 import Events from './events/Events';
 import Header from './components/header/Header';
 import Judge from './judges/Judge';
@@ -17,7 +18,7 @@ import ListOfTeams from './teams/ListOfTeams';
 import Team from './teams/Team';
 import Ticket from './ticket/Ticket';
 import Event from './events/Event';
-import TypesOfSports from './typesOfSports/typesOfSports';
+
 
 function App() {
   return (

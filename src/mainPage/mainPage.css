@@ -6,7 +6,7 @@ body {
     line-height: 22px;
   }
   .mainPage{
-    height: 100vh;
+    /*height: 100vh;*/
     background: url("../img/background.png") no-repeat;
     margin: 0 auto;
   }

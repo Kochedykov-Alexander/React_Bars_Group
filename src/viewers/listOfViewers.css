@@ -28,8 +28,11 @@ body{
   background: url("../img/content.jpg") no-repeat;  
   margin: 0 auto;
 }  */
-.content1{
-  
+.listOfViewers__content{
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .table{
   position: relative;
@@ -42,6 +45,9 @@ body{
   /*background-color: rgba(255, 255, 255, 0.80);*/
   height: 100%;
   
+}
+table{
+  border-collapse: collapse;
 }
 table td{
   text-align: center;

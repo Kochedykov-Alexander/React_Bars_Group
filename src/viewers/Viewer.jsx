@@ -1,56 +1,78 @@
 import React from 'react'
 import './viewer.css'
+import viewer from '../../src/img/viewer.jpg'
 
 export default function Viewer() {
 	return (
 		<div className="content">
 			<div className="container">
 				<div className="viewer">
-					<div className="viewer__left">
-						<div className="viewer__photo">
-							<img src="/viewer/img/avatar.jpg" className="viewer__photo_img" alt=""/>
-						</div>
+					<div className="viewer__title">
+						Личный кабинет 
 					</div>
-					<div className="viewer__right">
-						<div className="viewer__right_nickname">
-							srabdullin
-						</div>
-						
-						
-						<div className="viewer__right__name">
-							Шамиль Абдуллин, 22 года
+					<hr className="viewer__line"/>
+					<div className="viewer__row">
+						<div className="viewer__column_photo">
+							<img src={viewer} class="viewer__column_photo_img" alt="" />
 						</div>
 
-						
+						<div className="viewer__column_data">
+
+							<div className="viewer__column_data_title">Общие сведения</div>
+							<div className="viewer__column_data__info">
+								<div className="viewer__column_data_login">Login: Julia</div>
+								<div className="viewer__column_data_fio">ФИО: Юлия Михайлова</div>
+								<div className="viewer__column_data_date">Дата рождения: 01.02.1995</div>
+							</div>
+						</div>
+
+						<div className="viewer__column_button">
+							<button className="viewer__column_button_change">Изменить</button>
+						</div>
 					</div>
 
-					<button type="submit" className="button__change">
-						Изменить
-					</button>
-				</div>
-				<div className="table">
-					<div className="table_header">
+					<div className="table__header">
 						Мои мероприятия
 					</div>
-					<div className="table__item">
-						<div className="table__item_time">
-							22:00
+					<div className="table__rows">
+						<div className="table__row">
+							<div className="table__row_event">
+								Мероприятие
+							</div>
+							<div className="table__row_teams">
+								Команды
+							</div>
+							<div className="table__row_date">
+								Дата
+							</div>
+							<div className="table__row_time">
+								Время
+							</div>
+							
 						</div>
-						<div className="table__item_date">
-							22.04.2021
-						</div>
-						<div className="table__item_name">
-							событие 1
-						</div>
-						<div className="table__item_home">
-							команда 1
-						</div>
-						<div className="table__item_away">
-							команда 2
-						</div>
-					</div>
+						
+						<div className="table__row">
+					
+							<div className="table__row_event">
+								Футбольный матч
+							</div>
+							<div className="table__row_teams">
+								<a href="events/1">Рубин-Спартак</a>
+							</div>
+							<div className="table__row_date">
+								18.06.2021
+							</div>
+							<div className="table__row_time">
+								18:00
+							</div>
+
 				</div>
-				</div>
+
+					
+				
+			</div>
+			</div>
+			</div>
 			</div>
 	)
 }

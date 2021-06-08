@@ -30,7 +30,7 @@ export default function Admin() {
 						<a href=""><div className="admin__item_photo"><img src={imgJudge} className="admin__item_photo_img" alt=""/></div></a>
 					</div>
 					<div className="admin__item">
-						<div className="admin__item_title"><a href="/admin/listOfPlayers" className="text">Спортсмены</a></div>
+						<div className="admin__item_title"><a href="/listOfPlayers" className="text">Спортсмены</a></div>
 						<a href=""><div className="admin__item_photo"><img src={imgPlayer} className="admin__item_photo_img" alt=""/></div></a>
 					</div>
 					<div className="admin__item">
@@ -38,7 +38,7 @@ export default function Admin() {
 						<a href=""><div className="admin__item_photo"><img src={imgTeams} className="admin__item_photo_img" alt=""/></div></a>
 					</div>
 					<div className="admin__item">
-						<div className="admin__item_title"><a href="/tickets" className="text">Билеты</a></div>
+						<div className="admin__item_title"><a href="#" className="text">Билеты</a></div>
 						<a href=""><div className="admin__item_photo"><img src={imgTickets} className="admin__item_photo_img" alt=""/></div></a>
 					</div>
 				</div>

@@ -57,7 +57,7 @@ export default function Viewer() {
 								Футбольный матч
 							</div>
 							<div className="table__row_teams">
-								<a href="events/1">Рубин-Спартак</a>
+								<a href="event">Рубин-Спартак</a>
 							</div>
 							<div className="table__row_date">
 								18.06.2021
@@ -65,11 +65,7 @@ export default function Viewer() {
 							<div className="table__row_time">
 								18:00
 							</div>
-
 				</div>
-
-					
-				
 			</div>
 			</div>
 			</div>

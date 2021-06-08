@@ -17,21 +17,20 @@
   }
 
   .event {
-	  padding: 87px 100px 0 100px;
-	  
-
+	  padding: 50px 100px 0 100px;
   }
   .event__title {
 	font-weight: 500;
-	font-size: 24px;
+	font-size: 36px;
 	text-align: center;
   }
 
   .event__info {
-	font-size: 20px;
+	font-size: 24px;
 	  margin-top: 79px;
 	  display: grid;
 	  row-gap: 38px;
+	  font-weight: 500;
   }
 
   .event__button {
@@ -48,4 +47,8 @@
 	height: 50px;
 	background: #66FCF1;
 	border-radius: 10px;
+  }
+  .event__button_buy:hover {
+	background-color: black;
+	color: #66FCF1;
   }

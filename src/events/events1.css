@@ -5,18 +5,18 @@
 	height: 100%;
 	width: 100%;
   }
-  .container {
+.container {
 	min-width: 971px;
 	height: 100%;
-  }
-  .table__header {
+}
+.events__table__header {
 	margin-top: 73px;
-	width: 860px;
+	width: 1040px;
 	height: 80px;
 	background: #464866;
 	font-weight: bold;
 	font-size: 24px;
-	padding: 0px 36px;
+	padding: 0px 100px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -25,45 +25,43 @@
 			align-items: center;
 			justify-content: center;
 			color: #fff;
-  }
-  .table_rows {
+}
+.events__table_rows {
 	display: grid;
 	align-items: center;
-  }
-  .table__row{
+}
+.events__table__row{
 	height: 64px;
 	font-weight: 500;
 	font-size: 18px;
-	padding: 0px 37px 0px 29px;
 	display: grid;
-	grid-auto-columns: 100px 100px 100px 100px 100px;
-	grid-template-areas: "event teams date ticket time";
+	grid-auto-columns: 200px 200px 70px 70px 130px;
+	grid-template-areas: "event teams date time ticket";
 	align-content: center;
 	border-left: 1px solid #000000;
 	border-right:  1px solid #000000;
 	border-bottom: 1px solid #000000;
 	justify-content: space-around;
-  }
-  .table__row_event {
+}
+.table__row_event {
 	grid-area: event;
-  }
+}
 
-  .table__row_teams {
+.table__row_teams {
 	grid-area: teams;
-  }
+}
 
-  .table__row_date {
+.table__row_date {
 	grid-area: date;
-  }
+}
 
-  .table__row_time {
+.table__row_time {
 	grid-area: time;
-  }
-  .table__row_time {
+}
+.table__row_ticket {
 	grid-area: ticket;
-  }
-  .button__create {
-	
+}
+.button__create {
 	width: 140px;
 	height: 50px;
 	font-weight: 500;
@@ -72,16 +70,22 @@
 	background: #66FCF1;
 	border-radius: 10px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);			
-  }
+}
 
-  .button__create_block {
-	  width: 100%;
-	  /*margin-top: 42%;*/
-	  padding-top: 10%;
-	  display: grid;
-	  justify-content: center;
-	  align-content: center;
-  }
-  
+.button__create_block {
+	width: 100%;
+	/*margin-top: 42%;*/
+	padding-top: 10%;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+.events__table__rows div:hover {
+	-webkit-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+			transition-duration: 0.5s;
+	color: #fff;
+	background-color: #9c9c9c;
+}
   
  

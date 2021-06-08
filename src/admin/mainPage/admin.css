@@ -3,8 +3,8 @@
 	height: 100%;
   }
   
-  .container {
-	max-width: 1180px;
+  .admin__container {
+	max-width: 1300px;
 	margin: 0 auto;
 	height: 100%;
 	background-color: rgba(255, 255, 255, 0.7);
@@ -49,6 +49,9 @@
 	-webkit-column-gap: 26px;
 			column-gap: 26px;
 	padding: 60px;
+	max-width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
   }
   
   .admin__item {

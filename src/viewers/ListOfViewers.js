@@ -6,7 +6,7 @@ import Table from '../components/Table';
 function ListOfViewers() {
   return (
     <div className="listOfViewers">
-      <div className="content1">
+      <div className="listOfViewers__content">
           <Table/>
       </div>
     </div>

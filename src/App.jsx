@@ -1,5 +1,6 @@
 import './App.css';
 import { Route, Switch, Redirect, BrowserRouter} from "react-router-dom"
+import TypesOfSports from './typesOfSports/typesOfSports';
 import Events from './events/Events';
 import Header from './components/header/Header';
 import Judge from './judges/Judge';
@@ -49,6 +50,7 @@ function App() {
         <Route path="/team" component={Team}></Route>
         <Route path="/admin/listOfPlayers" component={AdminListOfPlayers}></Route>
         <Route path="/tickets" component={Ticket}></Route>
+        <Route path="/typesOfSports" component={TypesOfSports}></Route>
         <Route path="/playerCreate" component={PlayerCreate}></Route>
         <Route path="/playerUpdate" component={PlayerUpdate}></Route>
         <Route path="/judgeCreate" component={JudgeCreate}></Route>

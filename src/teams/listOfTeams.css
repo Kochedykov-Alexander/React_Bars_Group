@@ -1,19 +1,4 @@
-.content {
-	-ms-grid-row: 2;
-	-ms-grid-column: 1;
-	grid-area: content;
-	width: 100%;
-	height: 100%;
-  }
-  
-  .container {
-	max-width: 986px;
-	margin: 0 auto;
-	height: 100%;
-	background-color: rgba(255, 255, 255, 0.7);
-  }
-  
-  .teams {
+.teams {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -27,20 +12,19 @@
   }
   
   .teams__title {
-	margin-top: 97px;
+	margin-top: 40px;
 	font-weight: bold;
 	font-size: 24px;
   }
   
   .teams__table {
 	display: table;
-	margin-top: 24px;
 	width: 830px;
 	border: 1px solid #342B2B;
 	border-collapse: collapse;
   }
   
-  .teams__button_create {
+  .teams__button{
 	-webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	font-size: 24px;
@@ -53,6 +37,14 @@
 	border-radius: 10px;
 	padding: 13px 43px;
   }
+  .teams__button:hover{
+    background-color: black;
+	color: #66FCF1;
+}
+
+.teams__button a:hover{
+	color: #66FCF1;
+}
   
   td {
 	border: 1px solid #342B2B;
@@ -91,3 +83,6 @@
 	background-color: #000000;
 	height: 1px;
   }
+td h5{
+	font-weight: bold;
+}

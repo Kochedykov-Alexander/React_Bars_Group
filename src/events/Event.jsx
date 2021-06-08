@@ -1,56 +1,26 @@
 import React from 'react'
+import './event.css'
 
 export default function Event() {
 	return (
 		<div className="content">
 			<div className="container">
 				<div className="event">
-					<div className="event__left">
-						<div className="event__photo">
-							<img src="/event/img/photo.jpg" className="event__photo_img" alt=""/>
-						</div>
+					<div className="event__title">
+						Футбольный матч
 					</div>
-					<div className="event__right">
-						<div className="event__right_title">
-							Событие 1
-						</div>
-						<div className="event__right__info">
-							<div className="event__right__info_date">
-								22.04.2021
-							</div>
-
-							<div className="event__right__info_time">
-								22:00
-							</div>
-						</div>
-						<div className="event__right__teams">
-							<div className="event__right__teams_home">
-								Команда 1
-							</div>
-							<div className="event__right__teams_away">
-								Команда 2
-							</div>
-						</div>
-						<div className="event__right__sport">
-							Теннис
-						</div>
+					<div className="event__info">
+						<div className="event__info_kind">Вид спорта: Футбол</div>
+						<div className="event__info_teams">Противоборствующие команды: Рубин - Спартак</div>
+						<div className="event__info_date">Дата: 12.12.1292</div>
+						<div className="event__info_place">Место проведения: Цетральный стадион</div>
 					</div>
+					<div className="event__button">
+						<button className="event__button_buy">Купить билет</button>
+					</div>	
 				</div>
-				<div className="table">
-					<div className="table_result">
-					<a href="#">
-						Результаты
-					</a>
-					</div>
-					<div className="table__stats">
-						<a href="#">Статистика</a>
-					</div>
-					<div className="table__empty">
-						
-					</div>
-					</div>
-					</div>
-					</div>
+				</div>
+				</div>
 				
 	)
 }

@@ -9,109 +9,153 @@
   }
 
   .container {
-	max-width: 1170px;
+	min-width: 1180px;
 	margin: 0 auto;
 	background-color: rgba(255, 255, 255, 0.7);
-	padding: 45px 70px;
+	
   }
-  
+
   .viewer {
-	display: -ms-grid;
-	display: grid;
-	-ms-grid-columns: 200px 550px 100px;
-		grid-template-columns: 200px 550px 100px;
-	padding: 100px 0px 20px 0px;
-		grid-template-areas: "left right button";
-	-webkit-column-gap: 24px;
-			column-gap: 24px;
+	  display: grid;
+	  justify-content: center;
+	 
+	  padding: 62px 100px 0px 100px;
   }
-  
-  .viewer__left {
-	-ms-grid-row: 1;
-	-ms-grid-column: 1;
-	grid-area: left;
+
+  .viewer__title {
+	  text-align: center;
+	  font-weight: bold;
+	font-size: 24px;
+	color: #464866;
   }
-  
-  .viewer__photo {
-	width: 200px;
-	height: 200px;
-	position: relative;
-  }
-  
-  .viewer__photo img {
+
+  .viewer__line {
 	width: 100%;
+	margin-top: 12px;
+	display: flex;
+	justify-content: center;
+	height: 0px;
+	opacity: 0.4;
+	border: 2px solid #2F3043;
+  }
+
+  .viewer__row {
+	  column-gap: 63px;
+	  margin-top: 25px;
+	  display: grid;
+	  grid-template-columns: minmax(auto, 170px) 1fr 150px;
+	  grid-template-areas: "photo data button";
+  }
+
+  .viewer__column_photo_img{
+	grid-area: photo;
+	position: relative;
+	width: 170px;
+	height: 170px;
+	
+	border-radius: 50%;
+  
+
+}
+.viewer__column_photo_img img{
+	position: absolute;
 	height: 100%;
+	width: 100%;
 	top: 0;
 	left: 0;
-	border-radius: 50%;
-	-o-object-fit: cover;
-	   object-fit: cover;
+	padding: 0 0 85% 0;
+	object-fit: cover;
+}
+
+  .viewer__column_data {
+	margin-top: 11px;
+	 grid-area: data;
   }
-  
-  .viewer__right {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-			flex-direction: column;
-	-ms-flex-pack: distribute;
-		justify-content: space-around;
-	font-size: 30px;
-  }
-  
-  .button__change {
-	-ms-grid-row: 1;
-	-ms-grid-column: 3;
-	grid-area: button;
-	background-color: #66FCF1;
-	width: 183px;
-	height: 58px;
+
+  .viewer__column_data_title {
+	font-weight: bold;
 	font-size: 20px;
-	margin-top: 125px;
-	font-family: 'Roboto', sans-serif;
-	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  .table {
-	width: 1030px;
-  }
-  
-  .table_header {
-	font-size: 24px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	padding-left: 12px;
-	-webkit-box-align: center;
-		-ms-flex-align: center;
-			align-items: center;
-	width: 100%;
-	height: 80px;
-	background-color: #C4C4C4;
-  }
-  
-  .table__item {
+	text-decoration-line: underline;
+	color: #45A29E;
+
+}
+
+.viewer__column_data__info {
+	margin-top: 20px;
+	display: grid;
+	row-gap: 8px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.viewer__column_button{ 
+	
+	grid-area: button;
+	display: grid;
+	align-content: center;
+	
+	
+}
+
+.viewer__column_button_change{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	font-size: 18px;
+	width: 150px;
+	height: 40px;
+	background: #66FCF1;
+	border-radius: 10px;
+}
+
+.table__header {
+	margin-top: 73px;
+	width: 1030px;
+	height: 80px;
+	background: #464866;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 0px 36px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: justify;
-		-ms-flex-pack: justify;
-			justify-content: space-between;
-	padding-left: 30px;
-	padding-right: 30px;
 	-webkit-box-align: center;
 		-ms-flex-align: center;
 			align-items: center;
-	width: 100%;
-	height: 74px;
-	border: 1px solid #000;
+			justify-content: center;
+			color: #fff;
   }
-  
-  a {
-	color: #000;
+
+  .table_rows {
+	display: grid;
+	align-items: center;
   }
-  
+
+  .table__row{
+	height: 64px;
+	font-weight: 500;
+	font-size: 18px;
+	padding: 0px 37px 0px 29px;
+	display: grid;
+	grid-auto-columns: 171px 193px 130px 130px;
+	grid-template-areas: "event teams date time";
+	align-content: center;
+	border-left: 1px solid #000000;
+	border-right:  1px solid #000000;
+	border-bottom: 1px solid #000000;
+	justify-content: space-around;
+  }
+
+  .table__row_event {
+	grid-area: event;
+  }
+
+  .table__row_teams {
+	grid-area: teams;
+  }
+
+  .table__row_date {
+	grid-area: date;
+  }
+
+  .table__row_time {
+	grid-area: time;
+  }

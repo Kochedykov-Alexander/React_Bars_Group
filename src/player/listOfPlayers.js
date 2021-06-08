@@ -21,20 +21,20 @@ export default function listOfPlayers() {
                                 <th>Команда</th>
 							</tr>
 							<tr onClick={() => getPlayer()}>
-								<td>Криштиану Роналдо</td>
+								<td><a href="/player">Криштиану Роналдо </a></td>
 								<td>14.02.1988</td>
 								<td>Футбол</td>
                                 <td>Реал-Мадрид</td>
 							</tr>
 						
 							<tr onClick={() => getPlayer()}>
-								<td>Лионель Месси</td>
+								<td><a href="/player">Лионель Месси</a></td>
 								<td>14.02.1988</td>
 								<td>Футбол</td>
                                 <td>Барселона</td>
 							</tr>
 							<tr onclick={() => getPlayer()}>
-								<td>Майкл Джордан</td>
+								<td><a href="/player">Майкл Джордан</a></td>
 								<td>29.07.1957</td>
 								<td>Баскетбол</td>
                                 <td>Lakers</td>

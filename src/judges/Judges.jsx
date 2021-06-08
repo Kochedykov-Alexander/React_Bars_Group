@@ -21,19 +21,18 @@ export default function Judges() {
 								<th>Рейтинг</th>
 							</tr>
 							<tr onClick={() => getJudge()}>
-								<td>Пьерлуиджи Коллина</td>
+								<td><a href="/judge">Пьерлуиджи Коллина</a></td>
 								<td>Футбол</td>
 								<td>1867</td>
 							
 							</tr>
-						
 							<tr onClick={() => getJudge()}>
-								<td>Пьерлуиджи Коллина</td>
+								<td><a href="/judge">Пьерлуиджи Коллина</a></td>
 								<td>Футбол</td>
 								<td>1867</td>
 							</tr>
 							<tr onclick={() => getJudge()}>
-								<td>Пьерлуиджи Коллина</td>
+								<td><a href="/judge">Пьерлуиджи Коллина</a></td>
 								<td>Футбол</td>
 								<td>1867</td>
 							</tr>

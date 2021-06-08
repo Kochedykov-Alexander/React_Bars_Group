@@ -17,6 +17,14 @@ import ListOfTeams from './teams/ListOfTeams';
 import Team from './teams/Team';
 import Ticket from './ticket/Ticket';
 import Event from './events/Event';
+import PlayerCreate from './player/playerCrudForms/playerCreateForm'
+import PlayerUpdate from './player/playerCrudForms/playerUpdateForm'
+import JudgeCreate from './judges/judgeCrudForms/judgeCreateForm'
+import JudgeUpdate from './judges/judgeCrudForms/judgeUpdateForm'
+import EventCreate from './events/eventCrudForms/eventCreateForm'
+import EventUpdate from './events/eventCrudForms/eventUpdateForm'
+import TeamCreate from './teams/teamCrudForms/teamCreateForm'
+import TeamUpdate from './teams/teamCrudForms/teamUpdateForm'
 
 function App() {
   return (
@@ -41,6 +49,14 @@ function App() {
         <Route path="/team" component={Team}></Route>
         <Route path="/admin/listOfPlayers" component={AdminListOfPlayers}></Route>
         <Route path="/tickets" component={Ticket}></Route>
+        <Route path="/playerCreate" component={PlayerCreate}></Route>
+        <Route path="/playerUpdate" component={PlayerUpdate}></Route>
+        <Route path="/judgeCreate" component={JudgeCreate}></Route>
+        <Route path="/judgeUpdate" component={JudgeUpdate}></Route>
+        <Route path="/eventCreate" component={EventCreate}></Route>
+        <Route path="/eventUpdate" component={EventUpdate}></Route>
+        <Route path="/teamCreate" component={TeamCreate}></Route>
+        <Route path="/teamUpdate" component={TeamUpdate}></Route>
       </Switch>
       </BrowserRouter>
       </div>

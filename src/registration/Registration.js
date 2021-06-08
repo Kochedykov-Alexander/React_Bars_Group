@@ -9,7 +9,7 @@ export default function Registration() {
                     Регистрация
                 </h3>
                     <div className="registrationForm">
-                    <div className="registrationField" >ИМЯ</div><div><input type="text"/></div>
+                    <div className="registrationField">ИМЯ</div><div><input type="text"/></div>
                     <div className="registrationField">ФАМИЛИЯ</div><div><input type="text"/></div>
                     <div className="registrationField">E-MAIL</div><div><input type="email"/></div>
                     <div className="registrationField">ЛОГИН</div><div><input type="text"/></div>

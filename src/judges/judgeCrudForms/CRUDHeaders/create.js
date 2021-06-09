@@ -2,9 +2,9 @@ import '../judgeCRUDForm.css'
 
 function createText(){
     return(
-        <h3 className="viewerCreateFormHeader__page">
-          Создание нового судьи
-        </h3>
+        <div className="judgeCreateFormHeader__page">
+          <h3>Создание нового судьи</h3>
+        </div>
     );
 }
 

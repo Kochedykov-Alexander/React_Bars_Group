@@ -2,9 +2,11 @@ import '../playerCRUDForm.css'
 
 function createText(){
     return(
-        <h3 className="viewerCreateFormHeader__page">
-          Создание спортсмена
-        </h3>
+        <div className="playerCreateFormHeader__page">
+          <h3>
+            Создание спортсмена
+          </h3>
+        </div>
     );
 }
 

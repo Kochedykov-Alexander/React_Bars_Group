@@ -6,12 +6,12 @@ import CreateButton from '../../components/CRUDButtons/createButton'
 
 function TeamCreate(){
     return(
-        <div className="viewerCreateForm__page">
-        <Header></Header>
-        <form>
-           <Form></Form>
-           <CreateButton></CreateButton>
-        </form>
+        <div className="teamCreateForm__page">
+            <Header></Header>
+            <form>
+                <Form></Form>
+                <CreateButton></CreateButton>
+            </form>
         </div>
     );
 }

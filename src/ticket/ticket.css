@@ -4,19 +4,20 @@
 .content h3{
     text-align: center;
 }
-.content {
+/*.content {
 	-ms-grid-row: 2;
 	-ms-grid-column: 1;
 	grid-area: content;
 	width: 100%;
 	height: 100%;
-  }
+  }*/
   
-  .ticket__container {
-	max-width: 1000px;
+  .ticket__content {
+	width: 1200px;
 	margin: 0 auto;
 	height: 100%;
 	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
   }
   
   .tickets {
@@ -40,6 +41,7 @@
   
   .tickets__table {
 	display: table;
+	margin: 0 auto;
 	margin-top: 24px;
 	width: 830px;
 	border: 1px solid #342B2B;
@@ -92,10 +94,11 @@
   
   .horizontal_line {
 	margin-top: 10px;
-	border: 0;
+	border: 1;
 	clear: both;
 	display: block;
 	width: 830px;
 	background-color: #000000;
 	height: 1px;
+	margin: 10px auto;
   }

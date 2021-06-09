@@ -46,6 +46,7 @@ function App() {
         <Route path="/judge" component={Judge}></Route>
         <Route path="/listOfPlayers" component={ListOfPlayers}></Route>
         <Route path="/player" component={Player}></Route>
+        <Route path="/AdminListOfplayers" component={AdminListOfPlayers}></Route>
         <Route path="/listOfTeams" component={ListOfTeams}></Route>
         <Route path="/team" component={Team}></Route>
         <Route path="/admin/listOfPlayers" component={AdminListOfPlayers}></Route>

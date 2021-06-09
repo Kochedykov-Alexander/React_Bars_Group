@@ -6,20 +6,16 @@ export default function TeamForm() {
 
 	return (
             <div className="registrationForm">
-            <span className="registrationField">Название</span><div><input type="text" onChange={e => setTeam(e.target.value)} value={team.name}/></div>   
-            <span className="registrationField">Вид спорта</span><div>
-                <select >
-                    <option>Баскетболл</option>
-                    <option>Футболл</option>
-                    <option>Теннис</option>
-                </select>
+                <span className="registrationField">Название</span><div><input type="text" onChange={e => setTeam(e.target.value)} value={team.name}/></div>   
+                <span className="registrationField">Вид спорта</span><div>
+                    <select >
+                        <option>Баскетболл</option>
+                        <option>Футболл</option>
+                        <option>Теннис</option>
+                    </select>
+                </div>
+                <span className="registrationField">Тренер</span><div><input type="text" onChange={e => setTeam(e.target.value)} value={team.trainer}/></div>
+                <span className="registrationField">Команда</span><div><textarea type="text" onChange={e => setTeam(e.target.value)}/></div>
             </div>
-            <span className="registrationField">Тренер</span><div><input type="text" onChange={e => setTeam(e.target.value)} value={team.trainer}/></div>
-            <span className="registrationField">Команда</span><div><textarea type="text" onChange={e => setTeam(e.target.value)}/></div>
-            <ul>
-                {team.players.map((element)=>
-                    <li>{element}</li>
-                )}
-            </ul>
-    </div>);
+    );
 }

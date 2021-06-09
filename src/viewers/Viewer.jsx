@@ -6,13 +6,13 @@ export default function Viewer() {
 
 	//пример использования сквозного компонентирования
 
-	const currentUser = useSelector(state => state.user.currentUser)
-	const dispatch = useDispatch()
+	//const currentUser = useSelector(state => state.user.currentUser)
+	//const dispatch = useDispatch()
 
 	//какая то функция, вешается на обработчики событий
-	const createTicket = (name, data) => {
-		dispatch(setTicket())
-	}
+	//const createTicket = (name, data) => {
+		//dispatch(setTicket())
+	//}
 
 	//
 

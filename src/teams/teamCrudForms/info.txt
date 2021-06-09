@@ -1,0 +1,6 @@
+form.js :
+<ul>
+    {team.players.map((element)=>
+        <li>{element}</li>
+    )}
+</ul>

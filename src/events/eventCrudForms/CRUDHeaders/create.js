@@ -2,9 +2,9 @@ import '../eventCRUDForm.css'
 
 function createText(){
     return(
-        <h3 className="viewerCreateFormHeader__page">
-          Создание мероприятия
-        </h3>
+        <div className="eventCreateFormHeader__page">
+          <h3>Создание мероприятия</h3>
+        </div>
     );
 }
 

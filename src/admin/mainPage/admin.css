@@ -81,7 +81,13 @@
 		-ms-flex-pack: center;
 			justify-content: center;
   }
-  
+  .admin__item_title:hover{
+	background-color: black;
+	color: whitesmoke !important;
+  }
+  .admin__item_title a:hover{
+	  color: whitesmoke;
+  }
   .admin__item_photo {
 	width: 150px;
 	height: 160px;

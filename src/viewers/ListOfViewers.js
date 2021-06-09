@@ -7,8 +7,13 @@ function ListOfViewers() {
   return (
     <div className="listOfViewers">
       <div className="listOfViewers__content">
-          <Table/>
+        <Table/>
       </div>
+      {/*<div className="viewer__create__button">
+          <a href="/viewerCreate">
+            Создать
+          </a>
+        </div>*/}
     </div>
   );
 }

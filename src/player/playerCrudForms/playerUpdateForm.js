@@ -6,7 +6,7 @@ import UpdateButton from '../../components/CRUDButtons/updateButton'
 
 function PlayerCreate(){
     return(
-        <div className="viewerCreateForm__page">
+        <div className="playerCreateForm__page">
         <Header></Header>
         <form>
            <Form></Form>

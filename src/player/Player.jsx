@@ -30,7 +30,7 @@ export default function Player() {
 						</div>
 
 						<div className="player__column_button">
-							<button className="player__column_button_change">Изменить</button>
+							<button className="player__column_button_change"><a href="/playerUpdate">Изменить</a></button>
 						</div>
 					</div>
 					<div className="player__table">

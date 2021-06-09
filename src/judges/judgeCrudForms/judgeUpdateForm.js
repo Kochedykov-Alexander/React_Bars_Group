@@ -6,7 +6,7 @@ import UpdateButton from '../../components/CRUDButtons/updateButton'
 
 function JudgeUpdate(){
     return(
-        <div className="viewerCreateForm__page">
+        <div className="judgeCreateForm__page">
         <Header></Header>
         <form>
            <Form></Form>

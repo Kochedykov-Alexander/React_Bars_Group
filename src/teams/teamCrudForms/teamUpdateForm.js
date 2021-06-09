@@ -6,12 +6,12 @@ import UpdateButton from '../../components/CRUDButtons/updateButton'
 
 function TeamCreate(){
     return(
-        <div className="viewerCreateForm__page">
-        <Header></Header>
-        <form>
-           <Form></Form>
-           <UpdateButton></UpdateButton>
-        </form>
+        <div className="teamCreateForm__page">
+            <Header></Header>
+            <form>
+                <Form></Form>
+                <UpdateButton></UpdateButton>
+            </form>
         </div>
     );
 }

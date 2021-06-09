@@ -1,14 +1,11 @@
-body{
-    background: url("../../img/background.png");
-}
-.viewerCreateForm__page{
+.playerCreateForm__page{
     margin: 0 auto;
     background-color: #D9D9D9;
-    width: 50%;
-    height: 100%;
+    width: 35%;
+    height: 80%;
     text-align: center;
 }
-.viewerCreateForm{
+.playerCreateForm{
     display: grid;
     grid-template-columns: 4.5fr 4.5fr ;
     grid-auto-rows: 20px;
@@ -22,14 +19,20 @@ body{
     text-align: center;
     font-weight: 500;
 }
-.viewerCreateFormHeader__page h3{
+.playerCreateFormHeader__page h3{
     text-align: center;
     color: white;
     padding: 3%;
+    margin: 0 auto;
+}
+.playerCreateFormHeader__page{
+    background-color: black;
+    color: whitesmoke;
+    height: 70px;
 }
 .form__Header{
-  
     height: 8vh;
+    background-color: black;
 }
 .submitForm{
     display: inline-block;

@@ -6,12 +6,12 @@ import UpdateButton from '../../components/CRUDButtons/updateButton'
 
 function EventUpdate(){
     return(
-        <div className="viewerCreateForm__page">
-        <Header></Header>
-        <form>
-           <Form></Form>
-           <UpdateButton></UpdateButton>
-        </form>
+        <div className="eventCreateForm__page">
+            <Header></Header>
+            <form>
+                <Form></Form>
+                <UpdateButton></UpdateButton>
+            </form>
         </div>
     );
 }

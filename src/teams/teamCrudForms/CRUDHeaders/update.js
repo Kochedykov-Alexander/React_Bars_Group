@@ -2,9 +2,9 @@ import '../teamCRUDForm.css'
 
 function updateText(){
     return(
-        <h3 className="viewerCreateFormHeader__page">
-          Редактирование спортсмена
-        </h3>
+        <div className="teamCreateFormHeader__page">
+          <h3>Редактирование команды</h3>
+        </div>
     );
 }
 

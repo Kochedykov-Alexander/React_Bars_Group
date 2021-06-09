@@ -46,13 +46,13 @@ export default function Events() {
 								18:00
 							</div>
 							<div className="table__row_ticket">
-								<a href="#">Купить билет</a>
+								<a href="/tickets">Купить билет</a>
 							</div>
 						</div>	
 					</div>
 					<div className="button__create_block">
 						<button className="button__create">
-							Создать
+							<a href="/eventCreate">Создать</a>
 						</button>
 					</div>
 				</div>

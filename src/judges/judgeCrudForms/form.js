@@ -18,7 +18,7 @@ export default function JudgeForm() {
                 <option>Теннис</option>
             </select>
         </div>
-        <span className="registrationField">Рейтинг</span><div><input type="text" onChange={e => setJudge(e.target.value)} value={judge.raiting}/></div>
-</div>
+            <span className="registrationField">Рейтинг</span><div><input type="text" onChange={e => setJudge(e.target.value)} value={judge.raiting}/></div>
+        </div>
     );
 }

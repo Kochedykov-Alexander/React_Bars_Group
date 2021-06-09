@@ -19,8 +19,8 @@ export default function Event() {
 						<button className="event__button_buy">Купить билет</button>
 					</div>	
 				</div>
-				</div>
-				</div>
+			</div>
+		</div>
 				
 	)
 }

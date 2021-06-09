@@ -6,12 +6,12 @@ import CreateButton from '../../components/CRUDButtons/createButton'
 
 function EventCreate(){
     return(
-        <div className="viewerCreateForm__page">
-        <Header></Header>
-        <form>
-           <Form></Form>
-           <CreateButton></CreateButton>
-        </form>
+        <div className="eventCreateForm__page">
+            <Header></Header>
+            <form>
+                <Form></Form>
+                <CreateButton></CreateButton>
+            </form>
         </div>
     );
 }

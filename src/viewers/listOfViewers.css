@@ -50,6 +50,7 @@ body{
 .table tr{
   font-size: 18px;
   font-weight: 500;
+  height: 50px;
 }
 table{
   border-collapse: collapse;
@@ -59,4 +60,10 @@ table td{
 }
 h2{
   color: seashell;
+}
+.viewer__create__button{
+  height: 40px;
+  width: 100px;
+  background-color: #66FCF1;
+  margin: 0 auto;
 }

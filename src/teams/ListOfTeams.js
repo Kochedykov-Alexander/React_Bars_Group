@@ -41,7 +41,7 @@ export default function ListOfTeams() {
 							</tr>
 						</table>
 					<div class="teams__button">
-						<a href="/team/create" class="teams__button_create">Создать</a>
+						<a href="/teamCreate" class="teams__button_create">Создать</a>
 					</div>
 				</div>
 				</div>

@@ -38,7 +38,7 @@ export default function Judges() {
 							</tr>
 						</table>
 					<div class="judges__button">
-						<a href="/judge/create" class="judges__button_create">Создать</a>
+						<a href="/judgeCreate" class="judges__button_create">Создать</a>
 					</div>
 				</div>
 				</div>

@@ -2,9 +2,9 @@ import '../playerCRUDForm.css'
 
 function updateText(){
     return(
-        <h3 className="viewerCreateFormHeader__page">
-          Редактирование спортсмена
-        </h3>
+        <div className="playerCreateFormHeader__page">
+          <h3>Редактирование спортсмена</h3>
+        </div>
     );
 }
 

@@ -19,27 +19,27 @@ export default function Admin() {
 				<div className="admin__items">
 					<div className="admin__item">
 						<div className="admin__item_title"><a href="/listOfEvents" className="text">Мероприятия</a></div>
-						<a href=""><div className="admin__item_photo"><img src={imgEvent} className="admin__item_photo_img" alt=""/></div></a>
+						<a href="/listOfEvents"><div className="admin__item_photo"><img src={imgEvent} className="admin__item_photo_img" alt=""/></div></a>
 					</div>
 					<div className="admin__item">
 						<div className="admin__item_title"><a href="/listOfViewers" className="text">Зрители</a></div>
-						<a href=""><div className="admin__item_photo"><img src={imgViewer} className="admin__item_photo_img" alt=""/></div></a>
+						<a href="/listOfViewers"><div className="admin__item_photo"><img src={imgViewer} className="admin__item_photo_img" alt=""/></div></a>
 					</div>
 					<div className="admin__item">
 						<div className="admin__item_title"><a href="/listOfJudges" className="text">Судьи</a></div>
-						<a href=""><div className="admin__item_photo"><img src={imgJudge} className="admin__item_photo_img" alt=""/></div></a>
+						<a href="/listOfJudges"><div className="admin__item_photo"><img src={imgJudge} className="admin__item_photo_img" alt=""/></div></a>
 					</div>
 					<div className="admin__item">
-						<div className="admin__item_title"><a href="/listOfPlayers" className="text">Спортсмены</a></div>
-						<a href=""><div className="admin__item_photo"><img src={imgPlayer} className="admin__item_photo_img" alt=""/></div></a>
+						<div className="admin__item_title"><a href="/adminListOfPlayers" className="text">Спортсмены</a></div>
+						<a href="/adminListOfPlayers"><div className="admin__item_photo"><img src={imgPlayer} className="admin__item_photo_img" alt=""/></div></a>
 					</div>
 					<div className="admin__item">
 						<div className="admin__item_title"><a href="/listOfTeams" className="text">Команды</a></div>
-						<a href=""><div className="admin__item_photo"><img src={imgTeams} className="admin__item_photo_img" alt=""/></div></a>
+						<a href="/listOfTeams"><div className="admin__item_photo"><img src={imgTeams} className="admin__item_photo_img" alt=""/></div></a>
 					</div>
 					<div className="admin__item">
-						<div className="admin__item_title"><a href="#" className="text">Билеты</a></div>
-						<a href=""><div className="admin__item_photo"><img src={imgTickets} className="admin__item_photo_img" alt=""/></div></a>
+						<div className="admin__item_title"><a href="/listOfEvents" className="text">Билеты</a></div>
+						<a href="/listOfEvents"><div className="admin__item_photo"><img src={imgTickets} className="admin__item_photo_img" alt=""/></div></a>
 					</div>
 				</div>
 			</div>

@@ -6,7 +6,8 @@ import {userReducer} from './reducers/userReducer'
 
 
 const rootReducer = combineReducers({
-	user: userReducer 
+	user: userReducer,
+	
 })
 
 

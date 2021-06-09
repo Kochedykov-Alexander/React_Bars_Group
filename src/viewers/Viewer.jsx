@@ -3,9 +3,22 @@ import './viewer.css'
 import viewer from '../../src/img/viewer.jpg'
 
 export default function Viewer() {
+
+	//пример использования сквозного компонентирования
+
+	const currentUser = useSelector(state => state.user.currentUser)
+	const dispatch = useDispatch()
+
+	//какая то функция, вешается на обработчики событий
+	const createTicket = (name, data) => {
+		dispatch(setTicket())
+	}
+
+	//
+
 	return (
 		<div className="content">
-			<div className="container">
+		<div className="container">
 				<div className="viewer">
 					<div className="viewer__title">
 						Личный кабинет 

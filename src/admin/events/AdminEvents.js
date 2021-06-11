@@ -1,5 +1,5 @@
 import React from 'react'
-import './events.css'
+import './adminEvents.css'
 
 export default function Events() {
 	const getEvent = () => {
@@ -36,7 +36,7 @@ export default function Events() {
 								Футбольный матч
 							</div>
 							<div className="table__row_teams">
-								<a href="/event">Рубин-Спартак</a>
+								<a href="/adminEvent">Рубин-Спартак</a>
 							</div>
 							<div className="table__row_date">
 								18.06.2021
@@ -45,9 +45,14 @@ export default function Events() {
 								18:00
 							</div>
 							<div className="table__row_ticket">
-								<a href="/tickets">Купить билет</a>
+								<a href="/adminTickets">Список билетов</a>
 							</div>
 						</div>	
+					</div>
+					<div className="button__create_block">
+						<button className="button__create">
+							<a href="/eventCreate">Создать</a>
+						</button>
 					</div>
 				</div>
 			</div>	

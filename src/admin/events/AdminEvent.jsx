@@ -1,5 +1,5 @@
 import React from 'react'
-import './event.css'
+import './adminEvent.css'
 
 export default function Event() {
 	return (
@@ -16,7 +16,7 @@ export default function Event() {
 						<div className="event__info_place">Место проведения: Цетральный стадион</div>
 					</div>
 					<div className="event__button">
-						<a href="/tickets"><button className="event__button_buy">Купить билет</button></a>
+						<a href="/eventUpdate"><button className="event__button_buy">Редактировать</button></a>
 					</div>	
 				</div>
 			</div>

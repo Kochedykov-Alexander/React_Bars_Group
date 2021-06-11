@@ -1,9 +1,9 @@
-import React from 'react'
-import './listOfTeams.css'
+import React from 'react';
+import './adminListOfTeams.css';
 
-export default function ListOfTeams() {
+export default function AdminListOfTeams() {
 	const getTeam = () => {
-		document.location = 'http://localhost:3000/team'
+		document.location = '/team';
 	}
 	return (
 		<div class="content">
@@ -40,6 +40,9 @@ export default function ListOfTeams() {
 								<td>Фрэнк Вогель</td>
 							</tr>
 						</table>
+					<div class="teams__button">
+						<a href="/teamCreate" class="teams__button_create">Создать</a>
+					</div>
 				</div>
 				</div>
 			</div>

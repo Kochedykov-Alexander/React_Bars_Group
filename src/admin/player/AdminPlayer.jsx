@@ -1,6 +1,6 @@
 import React from 'react'
-import './player.css'
-import avatar from '../../src/img/messi.jpg'
+import './adminPlayer.css'
+import avatar from '../img/messi.jpg'
 
 
 export default function Player() {
@@ -27,6 +27,10 @@ export default function Player() {
 								<div className="player__column_data_fio">Дата рождения: 24.06.1987</div>
 								<div className="player__column_data_date">Вид спорта: Футбол</div>
 							</div>
+						</div>
+
+						<div className="player__column_button">
+						<a href="/playerUpdate"><button className="player__column_button_change">Изменить</button></a>
 						</div>
 					</div>
 					<div className="player__table">

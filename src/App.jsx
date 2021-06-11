@@ -14,18 +14,23 @@ import Registration from './registration/Registration';
 import Login from './login/Login';
 import ListOfPlayers from './player/listOfPlayers'
 import AdminListOfPlayers from './admin/player/adminListOfPlayers';
+import AdminPlayer from './admin/player/AdminPlayer';
 import ListOfTeams from './teams/ListOfTeams';
 import Team from './teams/Team';
 import Ticket from './ticket/Ticket';
 import Event from './events/Event';
-import PlayerCreate from './player/playerCrudForms/playerCreateForm'
-import PlayerUpdate from './player/playerCrudForms/playerUpdateForm'
-import JudgeCreate from './judges/judgeCrudForms/judgeCreateForm'
-import JudgeUpdate from './judges/judgeCrudForms/judgeUpdateForm'
-import EventCreate from './events/eventCrudForms/eventCreateForm'
-import EventUpdate from './events/eventCrudForms/eventUpdateForm'
-import TeamCreate from './teams/teamCrudForms/teamCreateForm'
-import TeamUpdate from './teams/teamCrudForms/teamUpdateForm'
+import AdminEvents from './admin/events/AdminEvents';
+import AdminListOfTeams from './admin/teams/AdminListOfTeams'
+import AdminEvent from './admin/events/AdminEvent';
+import AdminTicket from './admin/ticket/AdminTicket';
+import PlayerCreate from './player/playerCrudForms/playerCreateForm';
+import PlayerUpdate from './player/playerCrudForms/playerUpdateForm';
+import JudgeCreate from './judges/judgeCrudForms/judgeCreateForm';
+import JudgeUpdate from './judges/judgeCrudForms/judgeUpdateForm';
+import EventCreate from './events/eventCrudForms/eventCreateForm';
+import EventUpdate from './events/eventCrudForms/eventUpdateForm';
+import TeamCreate from './teams/teamCrudForms/teamCreateForm';
+import TeamUpdate from './teams/teamCrudForms/teamUpdateForm';
 
 function App() {
   return (
@@ -40,17 +45,22 @@ function App() {
         <Route path="/login" component={Login}></Route>
         <Route path="/listOfViewers" component={ListOfViewers}></Route>
         <Route path="/viewer" component={Viewer}></Route>
+        <Route path="/adminEvent" component={AdminEvent}></Route>
+        <Route path="/adminListOfEvents" component={AdminEvents}></Route>
         <Route path="/listOfEvents" component={Events}></Route>
         <Route path="/event" component={Event}></Route>
         <Route path="/listOfJudges" component={Judges}></Route>
         <Route path="/judge" component={Judge}></Route>
         <Route path="/listOfPlayers" component={ListOfPlayers}></Route>
         <Route path="/player" component={Player}></Route>
+        <Route path="/Adminplayer" component={AdminPlayer}></Route>
         <Route path="/AdminListOfplayers" component={AdminListOfPlayers}></Route>
+        <Route path="/adminListOfTeams" component={AdminListOfTeams}></Route>
         <Route path="/listOfTeams" component={ListOfTeams}></Route>
         <Route path="/team" component={Team}></Route>
         <Route path="/admin/listOfPlayers" component={AdminListOfPlayers}></Route>
         <Route path="/tickets" component={Ticket}></Route>
+        <Route path="/adminTickets" component={AdminTicket}></Route>
         <Route path="/typesOfSports" component={TypesOfSports}></Route>
         <Route path="/playerCreate" component={PlayerCreate}></Route>
         <Route path="/playerUpdate" component={PlayerUpdate}></Route>
